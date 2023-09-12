@@ -4,16 +4,19 @@
   "private": true,
   "dependencies": {
     "@metamodules/postgres": "^1.2.1",
+    "body-parser": "^1.20.2",
     "deploy-node-app": "^1.4.3",
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.6.0",
+    "express": "^4.18.2",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
   "devDependencies": {
-    "concurrently": "^4.1.0",
-    "nodemon": "^1.19.1",
     "babel-eslint": "10.0.1",
+    "concurrently": "^4.1.0",
     "cross-spawn": "^6.0.5",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
@@ -23,10 +26,11 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.19.1",
     "prettier": "^1.17.1"
   },
   "scripts": {
-    "start": "bash bin/dev.sh",
+    "start": "node app.js",
     "build": "react-scripts build",
     "deploy": "deploy-node-app",
     "test": "react-scripts test",
