@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Specify the command to run on container start
-CMD [ "node", "app.js" ]
+CMD [ "node", "server.js" ]
