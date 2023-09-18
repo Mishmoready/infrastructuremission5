@@ -31,7 +31,7 @@
     "prettier": "^1.17.1"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "node server.js",
     "build": "react-scripts build",
     "deploy": "deploy-node-app",
     "test": "react-scripts test",
